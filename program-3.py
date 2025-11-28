@@ -21,9 +21,11 @@ def single_integer(n):
     if n%2 == 0:
         n-=1
     while cnt<n:
-        print(odd, end='')
+        print(odd, end=',')
         odd+=2
         cnt+=1
-    print()
+  
     
 single_integer(4)
+
+#Output : 1,3,5

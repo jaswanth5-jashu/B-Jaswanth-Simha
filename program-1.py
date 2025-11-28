@@ -41,3 +41,11 @@ print('Multiplication :',res)
 obj1 = Calculator(10,2,'division')
 res = obj1.calculate()
 print('Division :',res)
+
+#Output
+'''
+Addition : 30.5
+Subtraction : -490
+Multiplication : 1000
+Division : 5.0
+'''

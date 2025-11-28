@@ -15,6 +15,8 @@ Problem-2:
 
 def single_int(n):
     for i in range(n):
-        print(2*i+1,end =' ')
+        print(2*i+1,end =',')
 single_int(5)
+
+#Output : 1,3,5,7,9 
     
