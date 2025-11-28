@@ -32,7 +32,7 @@ print('Addition :',res)
 
 obj1 = Calculator(10,500,'subtraction')
 res = obj1.calculate()
-print('Subtraction :',res)
+print('Subtraction :',abs(res))
 
 obj1 = Calculator(10,100,'multiplication')
 res = obj1.calculate()
